@@ -1,0 +1,7 @@
+langchain4j:
+  open-ai:
+    chat-model:
+      api-key: ${OPENAI_API_KEY}
+      model-name: llama3
+      base-url: http://localhost:11434/v1
+      temperature: 0.9
